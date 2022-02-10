@@ -1,9 +1,9 @@
 # Express_Mongo_CRUD
-Sesuai dengan namanya aplikasi ini memilki fitur CRUD(Create, Read, Update, Delete) dari data yang ada pada database. Teknologi stack yang digunakan untuk membangun aplikasi ini meliputi: 
+Same as the title, this project use 
     - ExpressJs
     - MongoDB
     - Bootstrap
-Penggunaan ExpressJS membuat aplikasi ini dibangun secara modular dengan NodeJs. Disisi lain MongoDB berperan sebagai database, tempat dimana setiap data disimpan, dan Bootstrap sebagai pengatur dari tampilan yang ada. Selain itu aplikasi ini juga telah menerapkan MVC (Models, Views, Controllers). 
+
 
 #### Running Apps
     - Extract zip file yang ada dan letakan pada suatu direktori
