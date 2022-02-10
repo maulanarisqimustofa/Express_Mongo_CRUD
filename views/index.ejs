@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">POKEMON</h2>
+        <div class="row mt-3">
+            <div class="col-auto col-lg-12 mt-2">
+                <% if(alert.message != "") { %>
+                    <div class="alert alert-<%= alert.status %>" role="alert">
+                        <%= alert.message %>
+                    </div>
+                    <% } %>
+            </div>
+            <div class="col-auto col-lg-12 mt-2">
+                <%- include('table.ejs') %>
+            </div>
+        </div>
+        <%- include('add.ejs') %>
+            <%- include('edit.ejs') %>
+                <%- include('js.ejs') %>
+                    <script>
+                        $("#dataTable").on("click", ".button-update", function() {
+                            let id = $(this).data("id");
+                            let number = $(this).data("number");
+                            let name = $(this).data("name");
+                            let types = $(this).data("types");
+                            $("#edit-modal").modal("show");
+                            $(".id").val(id);
+                            $(".number").val(number);
+                            $(".name").val(name);
+                            $(".types[]").val(types);
+                        });
+                    </script>
+</body>
+
+</html>
