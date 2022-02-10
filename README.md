@@ -1,19 +1,18 @@
 # Express_Mongo_CRUD
-Same as the title, this project use 
-    - ExpressJs
-    - MongoDB
-    - Bootstrap
+Same as the title, this project used ExpressJS and MongoDB as database. 
 
+#### How To Running Apps
+    - Extract zip file and put on your directory
+    - Make sure NodeJs, ExpressJs, MonggoDB, Mongoose, Visual Studio Code/other code editor has been installed
+    - Create a database on MongoDb with the name db_pokemon
+    - Check database connection on app.js, adjust localhost url with localhost MongoDB 
+    - Open terminal on code editor and set project file path
+    - Install npm for running this application
+    - Running this command "npm run dev" on your terminal
+    - Type this URL http://localhost:3000/ on your browser
+ 
 
-#### Running Apps
-    - Extract zip file yang ada dan letakan pada suatu direktori
-    - Pastikan NodeJs, ExpressJs, MonggoDB, Mongoose, Visual Studio Code/Code Editor lainnya telah terinstall
-    - Buat database pada MongoDb dengan nama db_pokemon
-    - Cek koneksi database pada file app.js, sesuaikan url localhost dengan localhost MongoDB 
-    - Buka terminal pada code editor atau terminal bawaan dan arahkan pada folder aplikasi ini 
-    - Install npm untuk menjalankan aplikasi dengan perintah npm install
-    - Jalankan perintah npm run dev pada terminal
-    - Buka browser dan jalankan URL http://localhost:3000/
-    - Aplikasi dapat digunakan 
+    ps. using ctrl+c on terminal, for stopped running command. 
 
-    ps. tekan ctrl+c pada terminal, jika aplikasi selesai digunakan. 
+#### Final UI
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/87288872/153374521-1a009130-7924-471d-b0d7-7053168ef4da.png">
