@@ -1,4 +1,4 @@
-# CRUD POKEMON Apps
+# Express_Mongo_CRUD
 Sesuai dengan namanya aplikasi ini memilki fitur CRUD(Create, Read, Update, Delete) dari data yang ada pada database. Teknologi stack yang digunakan untuk membangun aplikasi ini meliputi: 
     - ExpressJs
     - MongoDB
